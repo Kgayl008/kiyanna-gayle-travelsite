@@ -1,0 +1,140 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: white;
+    width: 100%;
+}
+.header__wordmark{
+    text-decoration: none;
+    color:#335576;
+    margin: 20px;}
+.header__navlink--active{
+    border-bottom: .0625rem solid black;
+}
+.header__navlink{
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+}
+.header__navitems{
+    justify-content: space-between;
+    margin: 15px;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .0625rem
+}
+.header__list{
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.hero__slogan{
+    text-align: left;
+    align-items: center;
+    width: 550px;
+    align-items: center;
+}
+.hero__image--logo{
+    height: 100%;
+    width: 400px;
+}
+.recommendations{
+    display: flex;
+    justify-content: center;
+}
+.recommendations__locations{
+    display: flex;
+    align-items: center;
+    color: #335576;
+}
+.footer__titles{
+    color: #335576;
+}
+.footer__text{
+    color: #DB7A4E;
+}
+.footer__subtitles{
+    color: #335576
+}
+.footer__section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.hero{
+    background-color: #FEFAF5;
+    padding: 30px;
+}
+.hero__text{
+    color: #335576;
+    text-align:left;
+}
+.hero__button{
+    color: white;
+    background-color: #DB7A4E;
+    border-radius: 2rem;
+    border: none;
+    padding: .4rem 1.4rem
+}
+.recommendations__card--hawaii{
+    width: 330px;
+    height: 440px;
+    margin:20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    /* opacity: 20%; */
+    background-image: url(../assets/Images/hawaii.jpg);
+    background-size: cover;
+}
+.recommendations__card--iceland{
+    width: 330px;
+    height: 440px;
+    margin:20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    /* opacity: 20%; */
+    background-image: url(../assets/Images/iceland.jpg);
+    background-size: cover;
+}
+.recommendations__card--greece{
+    width: 330px;
+    height: 440px;
+    margin:20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    /* opacity: 20%; */
+    background-image: url(../assets/Images/greece.jpg);
+    background-size: cover;
+}
+.footer__icon{
+    width: 25px;
+}
+.footer__container--contact{
+    width:100px;
+    height: 150px;
+}
+.locate{
+    color: white;
+}
+
+div.hour__section{
+    justify-content: center;
+    align-items: center;
+}
+.hours__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
