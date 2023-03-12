@@ -5,105 +5,115 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/destination.css">
   </head>
   <body>
     <!-- Header -->
     <header class="header">
       <nav class="header__nav">
-        <a href="#" class="header__wordmark"><h1>Travel Site</h1></a>
+        <a href="../index.html" class="header__wordmark"><h3>Travel Site</h3></a>
         <ul class="header__list">
           <li class="header__navitems">
-            <a href="#" class="header__navlink" class="header__navlink--active">Home</a>
+            <a href="../index.html" class="header__navlink">Home</a>
           </li>
           <li class="header__navitems">
-            <a href="#" class="header__navlink">Iceland</a>
+            <a href="hawaii.html" class="header__navlink" id="header__navlink--active">Hawaii</a>
           </li>
           <li class="header__navitems">
-            <a href="#" class="header__navlink">Greece</a>
+            <a href="./iceland.html" class="header__navlink">Iceland</a>
           </li>
           <li class="header__navitems">
-            <a href="#" class="header__navlink">Hawaii</a>
+            <a href="./greece.html" class="header__navlink">Greece</a>
           </li>
         </ul>
       </nav>
     </header>
-    <!-- Hero Section -->
-    <section class="hero">
-      <div class="hero__slogan">
-        <h1 class="hero__text">Travelling Comes With <br>Endless Discoveries</h1>
-        <p class="hero__text">
-          Don’t let your dreams be just dreams. Experience the world by booking
-          a vacation with us now.
-        </p>
-        <a href="#"><button class="hero__button">Get started</button></a>
-      </div>
-      <div class="hero__image">
-        <img
-          src="../kiyanna-gayle-travelsite/assets/Images/hero.png"
-          alt="Travel Site Hero"
-          class="hero__image--logo"
-        />
+    <!-- Hawaii destination -->
+    <main>
+    <section id="hawaii">
+      <h1 class="location__name">Hawaii</h1>
+      <div class="section__destination">
+        <div class="recommendations__card--friday">
+            <ul class="card__itinerary">
+              <li class="card__itinerary-days"><b>Friday</b></li>
+              <hr>
+              <li class="flex-items__container">Breakfast</li>
+              <li class="flex-items">Lunch</li>
+              <li class="flex-items">Dinner</li>
+              <li class="flex-items">Snorkeling</li>
+            </ul>
+        </div>
+        <div class="recommendations__card--saturday">
+            <ul class="card__itinerary">
+              <li class="card__itinerary-days"><b>Saturday</b></li>
+              <hr>
+              <li class="flex-items__container">Breakfast</li>
+              <li class="flex-items">Lunch</li>
+              <li class="flex-items">Dinner</li>
+              <li class="flex-items">Snorkeling</li>
+            </ul>
+        </div>
+        <div class="recommendations__card--sunday">
+            <ul class="card__itinerary">
+              <li class="card__itinerary-days"><b>Sunday</b></li>
+              <hr>
+              <li class="flex-items__container">Breakfast</li>
+              <li class="flex-items">Lunch</li>
+              <li class="flex-items">Dinner</li>
+              <li class="flex-items">Snorkeling</li>
+            </ul>
+        </div>
       </div>
     </section>
-    <!-- Recommendations -->
-    <h3 class="recommendations__locations">Recommendations</h3>
-    <section class="recommendations">
-        <div class="recommendations__card--hawaii">
-            <h3 class="locate">Hawaii</h3>
-        </div>
-      </div>
-      <div class="recommendations__card--iceland">
-        <h3 class="locate">Iceland</h3>
-      </div>
-      <div class="recommendations__card--greece">
-        <h3 class="locate">Greece</h3>
-      </div>
+  </main>
+  <!-- footer -->
+  <footer class="footer__section">
+    <section class="footer__container-contact">
+      <h2 class="footer__titles">Contact</h2>
+      <p class="footer__text">EMAIL</p>
+      <p class="footer__subtitles">info@travelsite.com</p>
     </section>
-    <!-- footer -->
-    <footer class="footer__section">
-      <section class="footer__container--contact">
-        <h3 class="footer__titles">Contact</h3>
-        <h6 class="footer__text">EMAIL</h6>
-        <h6>info@travelsite.com</h6>
-      </section>
-      <section class="footer__container">
-        <h3 class="footer__titles">Hours</h3>
-        <div>
-          <h6 class="footer__text">MONDAY-FRIDAY</h6>
-          <h6 class="footer__subtitles">9:00 AM - 5:00 PM</h6>
-        </div>
-        <div>
-          <h6 class="footer__text">SATURDAY</h6>
-          <h6 class="footer__subtitles">10:00 AM - 4:00 PM</h6>
-        </div>
-        <div>
-          <h6 class="footer__text">SUNDAY</h6>
-          <h6 class="footer__subtitles">Closed</h6>
-        </div>
-      </section>
-      <section class="footer__container">
-        <h3 class="footer__titles">Social</h3>
+    <section class="footer__container-hours">
+      <h2 class="footer__titles">Hours</h2>
+    <div class="hours__container">
+      <div class="hours__section">
+        <p class="footer__text">MONDAY - FRIDAY</p>
+        <p class="footer__subtitles">9:00 AM - 5:00 PM</p>
+      </div>
+      <div class="hours__section" id="hours__saturday">
+        <p class="footer__text">SATURDAY</p>
+        <p class="footer__subtitles">10:00 AM - 4:00 PM</p>
+      </div>
+      <div class="hours__section" id="hours__sunday">
+        <p class="footer__text">SUNDAY</p>
+        <p class="footer__subtitles">Closed</p>
+      </div>
+    </div>
+    </section>
+    <section class="footer__container-social">
+      <h2 id="footer__title-social">Social</h2>
+      <div class="social__icons">
         <a href="https://www.instagram.com"
           ><img
-            src="assets/Icons/icon-instagram.png"
+            src="../assets/Icons/icon-instagram.png"
             alt="Instagram"
             class="footer__icon"
         /></a>
         <a href="https://www.facebook.com"
           ><img
-            src="assets/Icons/icon-facebook.png"
+            src="../assets/Icons/icon-facebook.png"
             alt="Facebook"
-            class="footer__icon"
+            id="facebook__icon"
         /></a>
-        <a href="https://www.twiiter.com"
+        <a href="https://www.twitter.com"
           ><img
-            src="assets/Icons/icon-twitter.png"
+            src="../assets/Icons/icon-twitter.png"
             alt="Twitter"
             class="footer__icon"
         /></a>
-      </section>
-    </footer>
+      </div>
+    </section>
+  </footer>
   </body>
 </html>

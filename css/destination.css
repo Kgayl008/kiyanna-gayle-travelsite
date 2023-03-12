@@ -1,0 +1,168 @@
+/* Navigation Bar */
+.header{
+    background-color: white;
+    width: 100%;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .0625rem
+}
+.header__wordmark{
+    text-decoration: none;
+    color:#335576;
+    margin: 1.25rem;
+    padding-left: 4.4375rem;
+}
+.header__navitems{
+    justify-content: space-between;
+    margin: .9375rem;
+}
+#header__navlink--active{
+    border-bottom: .1875rem solid #DB7A4E;
+    padding-bottom: .3125rem;
+}
+.header__navlink{
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+}
+.header__list{
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-right: 5rem;
+}
+/* Hawaii destination */
+.recommendations__card--friday{
+    width: 280px;
+    height: 390px;
+    margin:1.25rem;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+    background-color: white;
+}
+.recommendations__card--saturday{
+    width: 280px;
+    height: 390px;
+    margin:1.25rem;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,20%);
+    background-color: white;
+}
+.recommendations__card--sunday{
+    width: 280px;
+    height: 390px;
+    margin:1.25rem;
+    border-radius: .3125rem;
+    border: 1px solid rgba(0,0,0,20%);
+    background-color: white;
+}
+.card__itinerary{
+    list-style-type: none;
+    text-align: center;
+    flex-direction: column;
+}
+.flex-items{
+    background-color: #FEFAF5;
+    width: 240px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-top: 1.0625rem;
+    margin-left: 1.25rem;
+    padding-top: .75rem;
+}  
+.flex-items__container{
+    background-color: #FEFAF5;
+    width: 240px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-top: 1.875rem;
+    margin-left: 1.25rem;
+    padding-top: .75rem;
+}
+.card__itinerary-days{
+    font-size: 1.25rem;
+    padding-top: .9375rem;
+}
+hr{
+    border: 1.25px solid black;
+    width: 240px;
+    position: relative;
+    left: 20px;
+}
+/* footer */
+.footer__section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FEFAF5;
+    padding-top: 3.4375rem;
+}
+.footer__container-contact{
+    width:100px;
+    height: 150px;
+    padding-left: 5.4375rem;
+    margin-left: 3.4375rem;
+}
+.footer__titles{
+    color: #335576;
+}
+.footer__text{
+    color: #DB7A4E;
+    padding-top: 1.25rem;
+    padding-bottom: .625rem;
+    font-size: .625rem;
+}
+.footer__subtitles{
+    color: #335576
+}
+.footer__container-hours{
+    padding-left: 6.875rem;
+}
+.hours__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.hours__section{
+    justify-content: center;
+    align-items: center;
+}
+.footer__container-social{
+    padding-right: 6.875rem;
+    margin-right: 1.8125rem;
+}
+#footer__title-social{
+    color: #335576;
+    padding-bottom: 2.2188rem; 
+}
+.social__icons{
+    display: flex;
+    justify-content: space-between;
+    width: 135px;
+}
+.footer__icon{
+    width: 25px;
+}
+#facebook__icon{
+    width: 13px;
+}
+.hours__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hours__saturday{
+    padding-left: 2rem;
+}
+#hours__sunday{
+    padding-left: 1.875rem;
+}
