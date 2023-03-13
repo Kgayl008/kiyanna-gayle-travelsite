@@ -25,20 +25,20 @@ body{
     background-image: url(../assets/Images/hawaii.jpg);
     background-size: 100%;
     background-position: center;
-    padding-top: 95px;
+    padding-top: 5.9375rem;
     padding-bottom: 6.875rem;
 }
 #iceland{
     background-image: url(../assets/Images/iceland.jpg);
     background-size: 100%;
     background-position: center;
-    padding-top: 95px;
+    padding-top: 5.9375rem;
     padding-bottom: 6.875rem;
 }
 #greece{
     background-image: url(../assets/Images/greece.jpg);
     background-size: 100%;
     background-position: center;
-    padding-top: 95px;
+    padding-top: 5.9375rem;
     padding-bottom: 6.875rem;
 }
